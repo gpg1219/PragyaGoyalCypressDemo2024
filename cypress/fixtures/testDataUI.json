@@ -1,0 +1,24 @@
+{
+  "validCredentials": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+
+  "invalidCredentials": {
+    "username": "invalid_username",
+    "password": "invalid_password"
+  },
+
+  "cartData": {
+    "itemLabel": "Sauce Labs Backpack",
+    "itemPrice": "29.99",
+    "itemQuantity": "1"
+  },
+
+  "checkoutForm": {
+    "firstName": "User",
+    "lastName": "Test",
+    "postalCode": "12345",
+    "orderCompleteText": "Thank you for your order!"
+  }
+}

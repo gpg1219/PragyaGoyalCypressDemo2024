@@ -1,0 +1,24 @@
+{
+    "name": "Pragya ",
+    "job":"SDET",
+    "updateName":"Pragya Goyal",
+    "updateJob":"SDET 2",
+    "updatedJob":"SDET 3",
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka",
+    "pageID": 2,
+    "invalidID" :3000,
+    "unknownValidID":2,
+    "unknownInValidID":300,
+    "loginToken": {
+        "token": "QpwL5tke4Pnpja7X4"
+    },
+    "getUserByID": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver"
+    }
+
+
+} 
