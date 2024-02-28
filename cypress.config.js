@@ -9,7 +9,7 @@ module.exports = defineConfig({
   },
 
   e2e: {
-    baseUrl:'https://www.saucedemo.com/',
+    "baseUrl":'https://www.saucedemo.com/',
     //baseUrl: 'https://www.google.com',
 
     "defaultCommandTimeout": 12000, // Set to a higher value if needed
@@ -23,7 +23,8 @@ module.exports = defineConfig({
     "videoUploadOnPasses": false,
     "video": false,
     "trashAssetsBeforeRuns": true,
-    "chromeWebSecurity": true,
+    "chromeWebSecurity": false,
+    experimentalCspAllowList:true,
     experimentalOriginDependencies: true,
     experimentalRunAllSpecs: true,
     //experimentalSingleTabRunMode: true,
